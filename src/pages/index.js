@@ -13,7 +13,7 @@ export default () => (
 
     <p> This page, like me, is a work in progress! Thanks for visiting. </p>
     <img
-        src="kimberlee-lambda-blog/src/images/headshot.jpg"
+        src="../images/kimberleelandsend.jpg"
         alt="Kimberlee Johnson's headshot"
       />
 
