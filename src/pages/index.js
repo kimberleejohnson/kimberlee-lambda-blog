@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-
+import kimberleelandsend from "../images/kimberleelandsend.jpg"
 
 export default () => (
   <Layout>  
@@ -13,7 +13,7 @@ export default () => (
 
     <p> This page, like me, is a work in progress! Thanks for visiting. </p>
     <img
-        src="../images/kimberleelandsend.jpg"
+        src={kimberleelandsend}
         alt="Kimberlee Johnson's headshot"
       />
 
