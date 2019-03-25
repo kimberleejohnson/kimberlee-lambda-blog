@@ -1,5 +1,5 @@
 ---
-title: Getting to know git and HTML and CSS, too
+title: Getting to know git and HTML and CSS too
 date: "2019-03-23"
 ---
 
