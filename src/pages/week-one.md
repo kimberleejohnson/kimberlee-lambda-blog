@@ -1,5 +1,5 @@
 ---
-title: Getting to know git (and HTML and CSS, too): Lambda School #1
+title: Getting to know git and HTML and CSS, too (Lambda School #1)
 date: "2019-03-23"
 ---
 
