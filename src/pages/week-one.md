@@ -20,7 +20,7 @@ Confidence somewhat restored, Thursday we cover git, a track changes tool for de
 
 We take our first test on Friday, a three hour challenge to build a multipage website from mockups, using all we’ve learned. 
  
-I passed [this week](https://github.com/kimberleejohnson/Sprint-Challenge--User-Interface), but I expect there to be a week when I’m held back and have to repeat, as I've been told most students should. The Lambda School team has been so good about making that likely possibility judgment-free. This is especially important when I imagine I am not the only student who has faced judgment and condescension in the past, externally and internally. I know it’s not MIT, but after going from basic HTML to pushing a multipage website to Github in one week, I can’t help but liken Lambda school to a firehose as well, though I’m grateful I’m not paying tuition upfront for this one. 
+I passed [this week](https://github.com/kimberleejohnson/Sprint-Challenge--User-Interface), but I expect there to be a week when I’m held back and have to repeat, as I've been told most students should. The Lambda School team has been so good about making that likely possibility judgment-free. This is especially important when I imagine I am not the only student who has faced judgment and condescension in the past, externally and internally. I know it’s not MIT, but after going from basic HTML to pushing a multipage website to Github in one week, I can’t help but liken Lambda school to a fire hose as well, though I’m grateful I’m not paying tuition upfront for this one. 
 
 // How I’ll apply what I learned to this website 
 - I'll sort out some local repository issues I'm having. 
