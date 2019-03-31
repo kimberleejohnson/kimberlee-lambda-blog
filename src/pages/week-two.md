@@ -3,8 +3,6 @@ title: Why things look so bad on my phone and other things I’m learning
 date: "2019-03-31"
 ---
 
-# Why things look so bad on my phone and other things I’m learning 
-
 ## Lambda School #2 
 
 ### I learned the building blocks to design responsive design using media queries and CSS preprocessors (LESS). 
