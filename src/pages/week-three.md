@@ -1,5 +1,5 @@
 ---
-title: "JavaScript fundamentals, or, everything’s a function” 
+title: JavaScript fundamentals, or, everything’s a function 
 date: "2019-04-07"
 ---
 
