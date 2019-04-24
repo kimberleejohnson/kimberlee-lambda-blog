@@ -8,7 +8,7 @@ date: "2019-04-20"
 
 There were so many things I did not know when I went to Uganda [for the first time](https://www.worldreader.org/blog/reading-in-africa-day-one-kits-launch-at-naguru-parents-school/). Like how [MTN Mobile Money](https://www.mtn.co.ug/en/mobile-money/how-to-use/Pages/using-mobile-money.aspx) works, or how long it takes to drive from Entebbe to Kampala, or that in five years I’d be studying web development. 
 
-Kind friends remind me that my previous, seemingly unrelated-to-software-engineering work experience will prove come in handy, and that came somewhat true during my first Lambda School [Build Week](https://twitter.com/Austen/status/1069584101815013377). During Build Week, students at different points in the curriculum come together to build an app and accompanying marketing page. 
+Kind friends remind me that my previous, seemingly unrelated-to-software-engineering work experience will come in handy, and that came somewhat true during my first Lambda School [Build Week](https://twitter.com/Austen/status/1069584101815013377). During Build Week, students at different points in the curriculum come together to build an app and accompanying marketing page. 
 
 I picked Ride for Life, a project that nonprofit [Safe Mothers Safe Babies](http://www.safemotherssafebabies.org/) (SAFE) might eventually build to connect pregnant Ugandan women with safe boda boda (motorcycle) rides to health clinics. Typically women have to walk miles to the nearest clinic, depend on unreliable buses, or hail a taxi that might then tax them unfairly. A secure uber-like service could solve this problem. 
 
