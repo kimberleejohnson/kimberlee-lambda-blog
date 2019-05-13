@@ -48,23 +48,23 @@ Start in App.js. Component building begins at `class App extends React.Component
 
 In order to get our tasks stored in **state** to display, we’ll need to pass it down to our ToDoList component in the form of a prop. To do that, we first have to import ToDoList at the top of our file: 
 
-![alt text](../images/week6-9-tutorial-images/1_importToDoList.png)
+![importing ToDoList component at top of page](../images/week6-9-tutorial-images/1_importToDoList.png)
 
 And then make sure App shows, or returns, <ToDoList /> to the screen. Once we’ve done that, we can pass our state down through <ToDoList />. 
 
-[2_toDoListProp] 
+![Passing down state as props through toDoList](../images/week6-9-tutorial-images/2_toDoListProp.png)
 
 That looks great, but right now it’s not doing anything because ToDoList.js is empty. Derp. Let’s go build out <ToDoList />, making sure the file starts just like App.js by importing React `import React from “react.js”`. 
 
 Since we know that <App /> holds our state, we can set up <ToDoList /> as a simpler functional component. But things aren’t all that simple. We don’t want to display our props passed down from state in their raw form here, but instead would rather pass each unique task down to a <ToDo /> component. We can do that by using the array method [.map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) over props.toDos. 
 
-[3_toDos.map] 
+![Mapping over toDos array](../images/week6-9-tutorial-images/3_toDos.map.png) 
 
 Just like we imported ToDoList in App.js, we’ll now need to import for ToDo at the top of ToDoList.js. And, once you’ve done that, we’ll have to create <ToDo /> in ToDo.js. 
 
 We’ll import React at the top and setup <ToDo/>  as another functional component. Let’s think about all the props that got passed down. Each toDo made from the .map over toDos has a task, an id, and a completed value. Since we only need the task to display in our list, we can specifically call that out by adding .task to our prop. 
 
-[4_toDotask] 
+![Calling out task on toDo](../images/week6-9-tutorial-images/4_toDotask.png) 
 
 With your first placeholder task(s) displaying on the screen, we’re good to learn how to add new ones. 
 
@@ -72,11 +72,11 @@ With your first placeholder task(s) displaying on the screen, we’re good to le
 
 Since there are always more things we have to get done, we’ll need to build the capacity to add new items to our list. The easiest way to do that is through a form, which we’ve already built a placeholder for over in ToDoForm.js. Let’s set it up similarly to how we’ve done the others. After importing React, set up a functional component that returns a <form> HTML element with an input field and two buttons: one that tells a user to add an item; one that says to delete one. 
 
-[5_addForm] 
+![Building out the addForm](../images/week6-9-tutorial-images/5_addForm.png) 
 
 Once we’ve set up the <ToDoForm > component, we’ll need to import it in our App.js file. We’ll do this just like we did with <ToDoList >, both at the top of the page and directly within our return statement. 
 
-[6_componentform]
+![Importing ToDoForm](../images/week6-9-tutorial-images/6_componentForm.png)
 
 You should now see a form and two buttons on display. But, if you try actually typing in and adding an item, what happens? It should be nothing. So how do we make the button actually functional? 
 
@@ -84,19 +84,19 @@ Let’s take a step back here. What are we actually trying to do? When we add an
 
 Head back to App.js to write a function that changes state. It’ll need to do three things: 1) stop the page from reloading whenever we add an item, 2) Create a new object to hold whatever task we want to add and type in our form, and 3) Update our state to include everything that was there before plus the new task. 
 
-[7_addToDo]
+![Setting up_addToDo function](../images/week6-9-tutorial-images/7_addToDo.png)
 
 This function by itself actually won’t do much. We also need to write a function that keeps track of all the letters we type in our form, and that knows when we’re finished typing. That’s known as a changle handler, which we’ll call handleChanges. 
 
-[8_handleChanges]
+![Setting up handleChanges function](../images/week6-9-tutorial-images/8_handleChanges.png)
 
 Now that we have these functions, we need to make sure our Components have access to them, in the same way we needed to make sure they had access to state. Once again, we’ll pass them down as props to the <ToDoForm /> component: 
 
-[9_AddProp]
+![Passing down functions as props](../images/week6-9-tutorial-images/9_AddProp.png)
 
 Once passed down, we can call the functions in ToDoForm.js. We’ll add our change handler to the input button where we’ll type to add in a task, and the add to do function to the button itself. 
 
-[10_AddCommentForm]
+![Adding change handler on form button](../images/week6-9-tutorial-images/10_AddCommentForm.png)
 
 Test it out: now you should be able to add items to your list. But, the best part of a to-do list is definitely crossing off the things we’ve done, so let’s build that next. 
 
@@ -106,7 +106,7 @@ Have another look at our state in App.js. Each of the objects in “ToDos” has
 
 We can set that up as a conditional style at the ToDo.js level. 
 
-[11_ConditionalStyle]
+![Setting up ConditionalStyle](../images/week6-9-tutorial-images/11_ConditionalStyle.png)
 
 Now that we’ve set that conditional style, we need to help our browser know when .completed is true for a given ToDo item. For that, we’ll need to write another function back in App.js and pass it down as a prop. 
 
@@ -114,19 +114,19 @@ We’ll give the function an id as a parameter, so that while it's looping throu
   
 So, if the id passed to the function, the one we clicked on, matches the id of the task the function is mapping over, then it will change the task’s completed value to true. This will return the style we specified in ToDo.js. If the id does not match (the task hasn’t been completed), nothing will change. 
 
-[12_toggleStyleFunction]
+![Toggle style function](../images/week6-9-tutorial-images/12_toggleStyleFunction.png)
 
 Just like with our first function, we have to pass our toggleToDoStyle function down the chain as a prop. From App.js, we’ll pass it down through the ToDoList component: 
 
-[13_toggleStyleProp] 
+[Passing toggle style function as prop](../images/week6-9-tutorial-images/13_toggleStyleProp.png)
 
 From there, we go to ToDoList and pass it down another level to the ToDo component: 
 
-[14_toggleStyleToDoListProp]
+[Passing toggle style as prop to ToDo](../images/week6-9-tutorial-images/14_toggleStyleToDoListProp.png) 
 
 Finally, we call the function on Click in ToDo.js. 
 
-[15_ToggleStyleToDo] 
+[Calling toggle style function in ToDo.js](../images/week6-9-tutorial-images/15_toggleStyleToDo.png)
 
 Now you should be able to click on a specific item in your list and cross it off, and click again to remove the styling. 
 
@@ -136,7 +136,7 @@ Instead of just removing the style, we’re probably going to want to remove com
 
 Head back to App.js, and add another function that clears out any ToDos where the complete status is set to true: 
 
-[16_ClearFunction]
+[Clear Function setup](../images/week6-9-tutorial-images/16_ClearFunction.png) 
 
 And, just like we did before, we’ll want to pass that function down through the ToDoForm component, because that is where we put our “Clear complete” button. Then, we’ll call the function onClick of our button, just like we called our addToDo function on our add button. 
 
