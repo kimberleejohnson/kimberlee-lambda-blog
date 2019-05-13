@@ -118,15 +118,15 @@ So, if the id passed to the function, the one we clicked on, matches the id of t
 
 Just like with our first function, we have to pass our toggleToDoStyle function down the chain as a prop. From App.js, we’ll pass it down through the ToDoList component: 
 
-[Passing toggle style function as prop](../images/week6-9-tutorial-images/13_toggleStyleProp.png)
+![Passing toggle style function as prop](../images/week6-9-tutorial-images/13_toggleStyleProp.png)
 
 From there, we go to ToDoList and pass it down another level to the ToDo component: 
 
-[Passing toggle style as prop to ToDo](../images/week6-9-tutorial-images/14_toggleStyleToDoListProp.png) 
+![Passing toggle style as prop to ToDo](../images/week6-9-tutorial-images/14_toggleStyleToDoListProp.png) 
 
 Finally, we call the function on Click in ToDo.js. 
 
-[Calling toggle style function in ToDo.js](../images/week6-9-tutorial-images/15_toggleStyleToDo.png)
+![Calling toggle style function in ToDo.js](../images/week6-9-tutorial-images/15_toggleStyleToDo.png)
 
 Now you should be able to click on a specific item in your list and cross it off, and click again to remove the styling. 
 
@@ -136,7 +136,7 @@ Instead of just removing the style, we’re probably going to want to remove com
 
 Head back to App.js, and add another function that clears out any ToDos where the complete status is set to true: 
 
-[Clear Function setup](../images/week6-9-tutorial-images/16_ClearFunction.png) 
+![Clear Function setup](../images/week6-9-tutorial-images/16_ClearFunction.png) 
 
 And, just like we did before, we’ll want to pass that function down through the ToDoForm component, because that is where we put our “Clear complete” button. Then, we’ll call the function onClick of our button, just like we called our addToDo function on our add button. 
 
