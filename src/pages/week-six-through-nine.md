@@ -48,7 +48,7 @@ Start in App.js. Component building begins at `class App extends React.Component
 
 In order to get our tasks stored in **state** to display, we’ll need to pass it down to our ToDoList component in the form of a prop. To do that, we first have to import ToDoList at the top of our file: 
 
-![alt text]("../images/week6-9-tutorial-images/1_importToDoList.png" screenshot of importing ToDOList component)
+![alt text](../images/week6-9-tutorial-images/1_importToDoList.png)
 
 And then make sure App shows, or returns, <ToDoList /> to the screen. Once we’ve done that, we can pass our state down through <ToDoList />. 
 
