@@ -1,6 +1,6 @@
 ---
 title: Learn basic React principles with a to-do list inspired by your hero
-date: "2019-04-20"
+date: "2019-05-13"
 ---
 
 ## Lambda School #6-9
@@ -22,7 +22,7 @@ Before getting started with your to-do list, you need to first pick an inspirati
 
 **React** is a user interface library that Facebook built to solve their particular problem of dealing with a lot of data all at once. 
 
-For example, head over to your inspiration’s Facebook page. I’m looking at [Dolly’s] (https://www.facebook.com/DollyParton/). What happens when you like a post? What about when you click on the number of comments on that post? Like a comment? Add a comment yourself?  
+For example, head over to your inspiration’s Facebook page. I’m looking at [Dolly’s](https://www.facebook.com/DollyParton/). What happens when you like a post? What about when you click on the number of comments on that post? Like a comment? Add a comment yourself?  
 
 Every time you do one of those things, that’s called a “user interaction” with on the “user interface” (UI). And, each time you do one, the information on the UI, the screen, changes. 
 
