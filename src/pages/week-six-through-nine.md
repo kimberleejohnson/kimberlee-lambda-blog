@@ -132,7 +132,7 @@ Now you should be able to click on a specific item in your list and cross it off
 
 Instead of just removing the style, we’re probably going to want to remove completed items entirely. Let’s add a function to do just that, repeating much of what we already know. 
 
-// Part four: Clear out the tasks we’ve finished 
+####  Part four: Clear out the tasks we’ve finished 
 
 Head back to App.js, and add another function that clears out any ToDos where the complete status is set to true: 
 
