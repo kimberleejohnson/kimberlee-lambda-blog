@@ -100,7 +100,7 @@ Once passed down, we can call the functions in ToDoForm.js. We’ll add our chan
 
 Test it out: now you should be able to add items to your list. But, the best part of a to-do list is definitely crossing off the things we’ve done, so let’s build that next. 
 
-####  Part three: Cross-off completed tasks
+####  Cross-off completed tasks
 
 Have another look at our state in App.js. Each of the objects in “ToDos” has three pieces of data: a task, an id, and a completed boolean value. By default, we’ve set completed to false, because if we’ve added an item to our list, it’s not done. But, if we finish a task, we can set that value to true. We can then add a “strikethrough” style only to tasks where the “completed” boolean is true. 
 
@@ -132,7 +132,7 @@ Now you should be able to click on a specific item in your list and cross it off
 
 Instead of just removing the style, we’re probably going to want to remove completed items entirely. Let’s add a function to do just that, repeating much of what we already know. 
 
-####  Part four: Clear out the tasks we’ve finished 
+####  Clear out the tasks we’ve finished 
 
 Head back to App.js, and add another function that clears out any ToDos where the complete status is set to true: 
 
