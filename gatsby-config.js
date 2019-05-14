@@ -4,7 +4,10 @@ module.exports = {
   },
     plugins: [
       {
-        
+        resolve: `gatsby-transformer-remark`,
+        options: {
+          resolve: "gatsby-remark-copy-linked-files",
+        },
         resolve: `gatsby-plugin-manifest`,
         options: {
           name: "GatsbyJS",
