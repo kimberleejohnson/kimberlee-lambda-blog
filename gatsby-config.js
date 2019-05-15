@@ -3,11 +3,22 @@ module.exports = {
     title: `Kimberlee Johnson`,
   },
     plugins: [
+      `gatsby-plugin-sharp`, 
       {
-        resolve: `gatsby-transformer-remark`,
+        resolve: `gatsby-transformer-remark`, 
         options: {
-          resolve: ["gatsby-remark-copy-linked-files"],
-        },
+          plugins: [
+            {
+              resolve: `gatsby-remark-images`, 
+              options: {
+                maxWidth: 590, 
+                plugins: ["gatsby-remark-copy-linked-files"]
+              }
+            }
+          ]
+        }
+      },
+      {
         resolve: `gatsby-plugin-manifest`,
         options: {
           name: "GatsbyJS",
@@ -26,7 +37,6 @@ module.exports = {
           path: `${__dirname}/src/`,
         },
       },
-      `gatsby-transformer-remark`,
       {
         resolve: `gatsby-plugin-typography`,
         options: {
