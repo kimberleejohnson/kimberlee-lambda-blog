@@ -8,9 +8,9 @@
   A blog built using Gatsby's 'Hello World' starter. 
 </h1>
 
-I used Gatsby, a React framework, to get my blog up and running quickly. The starter I picked ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+I used Gatsby, a React framework, to get my blog up and running quickly. The starter I picked ships with the main Gatsby configuration files you might need to get up and running as well. 
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+_There are many starters to explore! Check out Gatsby's collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
 
 ## 🚀 Quick start
 
