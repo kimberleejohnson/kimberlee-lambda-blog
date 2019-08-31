@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
+    "build": "gatsby build && gh-pages -d public -b master", 
     "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "dependencies": {
