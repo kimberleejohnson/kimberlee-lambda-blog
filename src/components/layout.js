@@ -14,6 +14,7 @@ export default ({ children }) => (
   </Link>
   <ul style={{ color: 'black', listStyle: `none`, float: `right` }}>
     <ListLink to="/">About</ListLink>
+    <ListLink to="/resume">Resume</ListLink>
     <ListLink to="/console-blog/">Console.blog</ListLink>
   </ul>
 </header>
