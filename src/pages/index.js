@@ -4,14 +4,12 @@ import kimberleelandsend from "../images/kimberleelandsend.jpg"
 
 export default () => (
   <Layout>  
-    <p>
-    Hi there! I'm a former PR person turned software engineer in-training. 
-    When I'm not studying and writing about Lambda School, you can find me 
-    practicing mandolin, running half marathons, and checking out books from 
-    every library in San Francisco.
-    </p>
+    <h3>Hi there! I'm a fullstack software engineer looking for my next adventure.</h3>
+    
+    <p> Have a look at some of the things I've built, blogged, and done for work.</p>
 
-    <p> This page, like me, is a work in progress! Thanks for visiting. </p>
+    <p> When I'm not programming, I run a lot, try to read even more, and am ever-perfecting my mandolin and ukulele skills.</p> 
+    
     <img
         src={kimberleelandsend}
         alt="Kimberlee Johnson's headshot"
