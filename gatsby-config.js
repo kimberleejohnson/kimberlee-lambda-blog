@@ -5,18 +5,18 @@ module.exports = {
     plugins: [
       `gatsby-plugin-sharp`, 
       {
-      //   resolve: `gatsby-transformer-remark`, 
-      //   options: {
-      //     plugins: [
-      //       {
-      //         resolve: `gatsby-remark-images`, 
-      //         options: {
-      //           maxWidth: 590, 
-      //           plugins: ["gatsby-remark-copy-linked-files"]
-      //         }
-      //       }
-      //     ]
-      //   }
+         resolve: `gatsby-transformer-remark`, 
+         options: {
+           plugins: [
+             {
+               resolve: `gatsby-remark-images`, 
+               options: {
+                 maxWidth: 590, 
+                 plugins: ["gatsby-remark-copy-linked-files"]
+               }
+             }
+           ]
+         }
       },
       {
         resolve: `gatsby-plugin-manifest`,
