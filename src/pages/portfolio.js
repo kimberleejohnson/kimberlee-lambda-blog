@@ -5,8 +5,6 @@ import sautiScreenshot from "../images/portfolio-images/sauti_screenshot.png";
 export default () => (
     <Layout>  
     <h1>Portfolio</h1>
-      <p> Coming soon! Some projects that I've worked on. </p>
-
     <div>
         <h3>Sauti Databank</h3>
         <img
