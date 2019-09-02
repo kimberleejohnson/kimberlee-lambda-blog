@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 // Portfolio screenshots
 import sautiScreenshot from "../images/portfolio-images/sauti_screenshot.png"; 
 import rideForLifeScreenshot from "../images/portfolio-images/rideForLife_screenshot.png"; 
+import tweetmateScreenshot from "../images/portfolio-images/tweetmate_screenshot.png"
 
 export default () => (
     <Layout>  
@@ -20,7 +21,8 @@ export default () => (
         <p><b>Role</b>: Created backend routes, frontend components, and documentation on month-long, five-developer team. Also contributed to data model and ETL process. </p>
         <p>
           <a href="https://github.com/sauti-databank"> Code </a> | 
-          <a href="https://drive.google.com/file/d/1nVPaBB6P-KiCa9X1PwQmWm8UsQ5UzyVz/view?usp=sharing"> Case Study </a> 
+          <a href="https://drive.google.com/file/d/1nVPaBB6P-KiCa9X1PwQmWm8UsQ5UzyVz/view?usp=sharing"> Case study </a> |
+          <a href="https://www.sauti-databank.com/">Site</a> 
         </p>
     </div>
 
@@ -35,7 +37,26 @@ export default () => (
         <p><b>Stack</b>: HTML, CSS, LESS, JavaScript.</p>
         <p>
           <a href="https://github.com/build-rideForLife/build_rideForLife_marketingA"> Code </a> | 
-          <a href="https://rideforlifeapp.netlify.com"> Live site </a> 
+          <a href="https://rideforlifeapp.netlify.com"> Site </a> 
+        </p>
+    </div>
+
+    <div>
+        <h3>Tweetmate</h3>
+        <img
+            src={tweetmateScreenshot}
+            alt="Clouds at sunset behind a standard app login screen."
+        
+        /> 
+        <p>An app that performs a psycographic analysis of a user's tweets once they connect their Twitter account. The analysis includes graphs comparing a user's results to average and also suggests a list of users with similar psycographic traits. </p>
+
+        <p><b>Role</b>: I partnered with another frontend developer to program how the user would interact with the app, and what data would be displayed with each user click. </p>
+
+        <p><b>Stack</b>: React, Redux, styled-components.</p>
+
+        <p>
+          <a href="https://github.com/pat-pyschographic-analysis-of-text"> Code </a> | 
+          <a href="https://tweetmate.netlify.com/"> Site </a> 
         </p>
     </div>
 
