@@ -16,7 +16,7 @@ export default () => (
             alt="Screenshot of bar charts on sauti-databank.com"
         
         /> 
-        <p>A data visualization project for Sauti.org, a nonprofit that provides a platform for East African border traders to look up realtime market data. We converted data collected from SMS queries into a readable, then visual format. </p>
+        <p>A data visualization project for Sauti.org, a nonprofit that built an SMS platform for East African border traders to look up realtime market data. We converted data collected from SMS queries into a readable, then visual format. </p>
         <p><b>Stack</b>: Nivo (D3js), React, Sass, Node.js, MySQL.</p>
         <p><b>Role</b>: Created backend routes, frontend components, and documentation on month-long, five-developer team. Also contributed to data model and ETL process. </p>
         <p>
