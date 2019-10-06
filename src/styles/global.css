@@ -2,3 +2,14 @@ html {
     background-color:whitesmoke; 
   }
 
+.icon-img {
+  margin: 5%; 
+}  
+
+.icons-div {
+  flex-direction: row; 
+  padding: 5%; 
+  margin-left: 60%; 
+  padding-top: 0%; 
+}
+
