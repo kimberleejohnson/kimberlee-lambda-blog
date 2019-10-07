@@ -7,7 +7,7 @@ export default ({ data }) => {
   return (
   <Layout>
     <h1>Console.blog</h1>
-    <p>I'm currently a web development student at Lambda School. Here are some of the things I've learned so far. </p>
+    <p>I write about the things I learn and build. Some of these posts I originally published on <a href="https://dev.to/kimberleejohnson">DEV.to </a></p>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
           <Link
