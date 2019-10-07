@@ -1,10 +1,8 @@
 ---
-title: Learn basic React principles by making a to-do list inspired by your hero
+title: ✅ Learn React basics with a to-do list inspired by your hero
 date: "2019-05-15"
 ---
-
-## Lambda School #6-9
-### I’ve been learning React basics like: setting state and handling props, building and routing Components, and using the axios library to create, read, update and delete data. 
+### _This post will walk you through how to build a basic to-do list app, covering React basics like: setting state and handling props, building and routing Components, and using the axios library to create, read, update and delete data._ 
 
 If you start going through programming tutorials, you’ll likely notice a few recurring themes: Star Wars, Avengers, Lord of the Rings, rinse, repeat. 
 
