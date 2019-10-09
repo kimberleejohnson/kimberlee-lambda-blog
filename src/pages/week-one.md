@@ -29,7 +29,7 @@ Confidence somewhat restored, Thursday we cover git, a track changes tool for de
     <img src= "https://media.giphy.com/media/3oxHQKW9lw6rK9kYtq/giphy.gif">
 </p>
 
-### _How I’ll apply what I learned to this website_ 
+### _How I’ll apply what I learned to my blog_ 
 - I'll sort out some local repository issues I'm having. 
 
 ### _Learnings for other students_ 
