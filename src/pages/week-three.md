@@ -21,7 +21,7 @@ Of course, we learned a much easier way to create new Objects immediately the ne
 
 While tiring, learning something the hard way first can be worthwhile, so that we then understand why the shortcuts under the hood work, or, in other words, what the fancy raisins are doing in there in the first place. 
 
-### _How I’ll apply what I learned to this website_ 
+### _How I’ll apply what I learned to my blog_ 
 - That’s coming up next week! 
 
 ### _Advice for other students_

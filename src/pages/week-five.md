@@ -1,14 +1,13 @@
 ---
-title: Baby’s first Build Week 
+title: 👩🏻‍💻 Building my first real website 
 date: "2019-04-20"
 ---
 
-## Lambda School #5
 ### I built a marketing page from scratch using what I learned about HTML, CSS, and JavaScript these past four weeks.  
 
 There were so many things I did not know when I went to Uganda [for the first time](https://www.worldreader.org/blog/reading-in-africa-day-one-kits-launch-at-naguru-parents-school/). Like how [MTN Mobile Money](https://www.mtn.co.ug/en/mobile-money/how-to-use/Pages/using-mobile-money.aspx) works, or how long it takes to drive from Entebbe to Kampala, or that in five years I’d be studying web development. 
 
-Kind friends remind me that my previous, seemingly unrelated-to-software-engineering work experience will come in handy, and that came somewhat true during my first Lambda School [Build Week](https://twitter.com/Austen/status/1069584101815013377). During Build Week, students at different points in the curriculum come together to build an app and accompanying marketing page. 
+Kind friends remind me that my previous, seemingly unrelated-to-software-engineering work experience will come in handy. That came somewhat true during my first project week, when students at different points in the curriculum come together to build an app and accompanying marketing page. 
 
 I picked Ride for Life, a project that nonprofit [Safe Mothers Safe Babies](http://www.safemotherssafebabies.org/) (SAFE) might eventually build to connect pregnant Ugandan women with safe boda boda (motorcycle) rides to health clinics. Typically women have to walk miles to the nearest clinic, depend on unreliable buses, or hail a taxi that might then tax them unfairly. A secure uber-like service could solve this problem. 
 
@@ -28,14 +27,14 @@ My final product lives at this randomly generated [Netlify url](https://peaceful
 
 There are still so  many things I don’t know, and I love that. 
 
-// Advice for future and prospective Lambda students 
+### _Advice for other students_ 
 - Take some time to review past sprint challenges before Build Week. That probably would have saved me at least one headache. 
 - Our team lead gave us so much good universal advice, like training yourself to think like a computer and head to the root of a bug that a console gives you, instead of chasing human hypotheses. He also recommended that the team work toward the best version of a few features instead of rushing to complete as many as possible. That makes the argument “I could’ve done more if I had more time!” more valid. 
 
-// How I’ll apply what I learned to this website 
+### _How I’ll apply what I learned to this website_ 
 -  Most of all, I have more fluency to go back and understand the Gatsby template I built from. 
 
-// Life outside of Lambda 
+### _Life outside of learning_ 
 - We talked about translation in my fiction class, about how, why, and if it’s worthwhile. We tried a few exercises I’d never considered before, including translating different already-translated English translations into even more modern prose and homophonic translations. It was fun to jog my brain in new ways. 
 - My darling took me to see the Swedish sci fi movie [Aniara](https://www.youtube.com/watch?v=3MIlE9R00ik) as part of the SFFILM Festival. Oh boy that was dark and not for the faint of heart. 
 - Am reading: [Don’t forget this song](https://www.goodreads.com/book/show/7744091-the-carter-family), a graphic novel about the Carter family because that’s not something I ever thought I’d see (a library find!). 

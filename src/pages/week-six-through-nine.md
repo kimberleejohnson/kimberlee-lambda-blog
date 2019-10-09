@@ -12,6 +12,11 @@ With that in mind, I tried something different to recap the past few weeks. I wr
 
 Read on for the full tutorial! In the meantime, I’ll be reviewing more React basics including tooling and composition patterns, and learning Redux.
 
+<p align="center">
+    <img src= "https://media.giphy.com/media/S5zKL0KLbP8khe46w3/giphy.gif">
+</p>
+
+
 ## Build a basic to-do list with React 
 
 ### Vocab words   
@@ -138,5 +143,5 @@ And, just like we did before, we’ll want to pass that function down through th
 
 And there you have it! You should be able to clear out any items you’ve crossed through. And now you can get back to the really fun parts: building out colors and styling inspired by someone who inspires you to get things done over in ToDo.css. 
 
-I hope this was helpful! If you’re interested in learning more about learning to program, coding bootcamps or [Lambda School](https://lambdaschool.com/) in particular, please say hello. 
+I hope this was helpful! If you’re interested in learning more about learning to program, coding bootcamps or anything else, please say hello. 
 
