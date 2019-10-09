@@ -1,10 +1,18 @@
 import React from "react"
 import Layout from "../components/layout"
+import { TwitterTweetEmbed } from 'react-twitter-embed';
+
 
 // Portfolio screenshots
 import sautiScreenshot from "../images/portfolio-images/sauti_screenshot.png"; 
 import rideForLifeScreenshot from "../images/portfolio-images/rideForLife_screenshot.png"; 
 import tweetmateScreenshot from "../images/portfolio-images/tweetmate_screenshot.png"
+
+// Tweet styling 
+const tweetStyle = {
+  display: 'flex',
+  justifyContent: 'center'
+};
 
 export default () => (
     <Layout>  
@@ -60,6 +68,30 @@ export default () => (
           <a href="https://github.com/pat-pyschographic-analysis-of-text"> Code </a> | 
           <a href="https://tweetmate.netlify.com/"> Site </a> 
         </p>
+    </div>
+
+    <div>
+      <h3>Mean Girls Day Bot</h3>
+
+      <div style={tweetStyle}>
+        <TwitterTweetEmbed
+        tweetId={'1179785393471811590'}
+        />
+      </div>
+
+      <p>
+        In honor of the <a href="https://www.buzzfeed.com/ehisosifo1/october-3-mean-girls-day-tweets">Mean Girls Meme</a>, I built a chatbot that responded with "It's October 3rd" on October 3rd. After the date, I <a href="https://twitter.com/kimeejohnson/status/1180290750862381056">updated the app</a > to respond with random quotes from the movie. I also partnered with <a href="https://twitter.com/ChloeCondon">Chloe Condon</a> to write up a <a href="https://dev.to/kimberleejohnson/trying-to-make-fetch-errr-a-post-request-happen-12ad">blog post</a> about how I built it. 
+      </p>
+
+      <p><b>Role</b>: I followed Twilio's <a href="https://www.twilio.com/legal/tos#19-fun">terms of service</a> to have fun building this little demo. </p>
+
+        <p><b>Stack</b>: Twilio, Microsoft Azure, JavaScript.</p>
+
+        <p>
+          <a href="https://gist.github.com/kimberleejohnson/445c478f91ac9fb2461287215d6c1fda"> Code </a> | 
+          <a href="https://dev.to/kimberleejohnson/trying-to-make-fetch-errr-a-post-request-happen-12ad"> Case Study </a> 
+        </p>
+
     </div>
 
     </Layout>

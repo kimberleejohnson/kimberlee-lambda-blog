@@ -28,6 +28,7 @@
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.1",
     "react-pdf": "^4.1.0",
+    "react-twitter-embed": "^2.0.8",
     "react-typography": "^0.16.19",
     "style-loader": "^0.23.1",
     "typography": "^0.16.19",
