@@ -4,14 +4,12 @@ import kimberleelandsend from "../images/kimberleelandsend.jpg"
 
 export default () => (
   <Layout>  
-    <h3>Hi there! I'm a full stack software engineer looking for my next adventure.</h3>
+    <h3>Hi! I'm a full stack software engineer.</h3>
 
-    <p> Have a look at some of the <a href="https://kimberlee.dev/portfolio">things</a> I've built, <a href= "https://kimberlee.dev/console-blog">projects</a> I've blogged about, and other <a href="https://kimberlee.dev/resume">experiences</a> I've had.</p>
+    <p>I've used Nivo (D3js) and MySQL to <a href="https://www.sauti-databank.com/">visualize data</a> for a nonprofit, built Dolly Parton-inspired <a href="https://twitter.com/kimeejohnson/status/1179889420142436354">demos</a> to learn React, and used serverless tools to celebrate <a href="https://dev.to/kimberleejohnson/trying-to-make-fetch-errr-a-post-request-happen-12ad">Mean Girls Day</a>. More in my <a href="https://kimberlee.dev/portfolio">portfolio</a>!</p>
 
-    <p> If I'm not programming, I'm probably out on a run training for a race, checking out books from the library, or practicing mandolin and ukulele.</p> 
+   <p>I learned to code after 3.5 years working with developers on their interviews, talks, and blog posts at <a href="https://stripe.com">Stripe</a>.</p>
 
-    <p> I'd love to meet you! Feel free to say hello.</p> 
-    
     <div class="icons-div">
       <a href= "https://github.com/kimberleejohnson"><img class="icon-img" src="https://img.icons8.com/metro/26/000000/github.png"></img></a>
   
