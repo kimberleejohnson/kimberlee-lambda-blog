@@ -4,8 +4,8 @@ import Layout from "../components/layout"
 import { TwitterTweetEmbed } from 'react-twitter-embed';
 
 import kimberleelandsend from "../images/kimberleelandsend.jpg"
-import kimberlee_raceday from "../images/kimberlee_raceday.JPG"
-import kimberlee_ukulele from "../images/kimberlee_ukulele.JPG"
+import kimberlee_raceday from "../images/kimberlee_raceday.png"
+import kimberlee_ukulele from "../images/kimberlee_ukulele.png"
 
 // Tweet styling 
 const tweetStyle = {
