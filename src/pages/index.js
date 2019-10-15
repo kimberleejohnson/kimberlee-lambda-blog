@@ -43,7 +43,7 @@ export default () => (
     </p>
 
    
-    <Carousel>
+    <Carousel autoplay={true} autoplayInterval={1700}>
       <img src={kimberleelandsend} alt="Kimberlee Johnson's headshot" />
 
       <div style={tweetStyle}>
