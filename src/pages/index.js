@@ -64,7 +64,7 @@ export default () => (
 
       <div style={tweetStyle}>
         <TwitterTweetEmbed
-        tweetId={'1122155953397256193'}
+        tweetId={'1187180278982139904'}
         />
       </div>
 
