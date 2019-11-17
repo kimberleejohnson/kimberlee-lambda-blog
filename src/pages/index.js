@@ -32,7 +32,8 @@ export default () => (
       <a href="https://dev.to/kimberleejohnson/trying-to-make-fetch-errr-a-post-request-happen-12ad">
         Mean Girls Day
       </a>{" "}
-      using Azure Functions. Flip through the carousel below to see some highlights, and find more projects and details in my{" "}
+      using Azure Functions. Flip through the carousel below to see some
+      highlights, and find more projects and details in my{" "}
       <a href="https://kimberlee.dev/portfolio">portfolio</a>.
     </p>
 
@@ -42,41 +43,34 @@ export default () => (
       <a href="https://stripe.com">Stripe</a>.
     </p>
 
-   
     <Carousel autoplay={true} autoplayInterval={1700}>
       <img src={kimberleelandsend} alt="Kimberlee Johnson's headshot" />
 
       <div style={tweetStyle}>
-        <TwitterTweetEmbed
-        tweetId={'1179966596711731201'}
-        />
+        <TwitterTweetEmbed tweetId={"1179966596711731201"} />
       </div>
 
       <img src={kimberlee_ukulele} alt="Kimberlee holds ukulele " />
 
       <div style={tweetStyle}>
-        <TwitterTweetEmbed
-        tweetId={'1179889420142436354'}
-        />
+        <TwitterTweetEmbed tweetId={"1179889420142436354"} />
       </div>
 
-      <img src={kimberlee_raceday} alt="Kimberlee and friend jumping with San Francisco in background" />
+      <img
+        src={kimberlee_raceday}
+        alt="Kimberlee and friend jumping with San Francisco in background"
+      />
 
       <div style={tweetStyle}>
-        <TwitterTweetEmbed
-        tweetId={'1187180278982139904'}
-        />
+        <TwitterTweetEmbed tweetId={"1187180278982139904"} />
       </div>
-
-    </Carousel> 
-
-      
+    </Carousel>
 
     <div class="icons-div" style={iconStyle}>
       <a href="https://github.com/kimberleejohnson">
         <img
           class="icon-img"
-          src="https://img.icons8.com/metro/26/000000/github.png"
+          src="https://img.icons8.com/ios-filled/24/000000/github.png"
         ></img>
       </a>
 
