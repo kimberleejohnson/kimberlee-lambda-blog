@@ -22,29 +22,22 @@ export default () => (
     <h3>Hi! I'm a full stack software engineer.</h3>
 
     <p> 
-      Most recently, I solved 120+ user-submitted bugs per month as the only Support Engineer at <a href="https://www.survata.com/">Survata</a>, a YC-backed startup.
+      Most recently, I solved 120+ user-reported bugs per month as the only Support Engineer at <a href="https://www.survata.com/">Survata</a>, a YC-backed startup.
     </p>
 
     <p>
-      I taught myself web development after 3.5 years working with developers on their
+      I taught myself to program, starting with JavaScript, after 3.5 years collaborating with developers on their
       interviews, talks, and blog posts at{" "}
-      <a href="https://stripe.com">Stripe</a>.
+      <a href="https://stripe.com">Stripe</a>.  
     </p>
     
     <p>
       {" "}
-      I've <a href="https://www.sauti-databank.com/">visualized data</a> for a
-      nonprofit with Nivo (D3js) and MySQL, built Dolly Parton-inspired{" "}
+      I learn through building things, like a Node.js and Twilio <a href="https://twitter.com/kimeejohnson/status/1243586904794128384">app</a> to help restaurants during COVID-19; new <a href="https://www.sauti-databank.com/">data visualizations</a> for a nonprofit using Nivo (D3js) and MySQL; and Dolly Parton-inspired{" "}
       <a href="https://twitter.com/kimeejohnson/status/1179889420142436354">
         demos
       </a>{" "}
-      to learn React, and celebrated{" "}
-      <a href="https://dev.to/kimberleejohnson/trying-to-make-fetch-errr-a-post-request-happen-12ad">
-        Mean Girls Day
-      </a>{" "}
-      using Azure Functions. Flip through the carousel below to see some
-      highlights, and find more projects and details in my{" "}
-      <a href="https://kimberlee.dev/portfolio">portfolio</a>.
+      in React. 
     </p>
 
     <Carousel autoplay={true} autoplayInterval={1700}>
