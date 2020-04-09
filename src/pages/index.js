@@ -44,13 +44,13 @@ export default () => (
       <img src={kimberleelandsend} alt="Kimberlee Johnson's headshot" />
 
       <div style={tweetStyle}>
-        <TwitterTweetEmbed tweetId={"1179966596711731201"} />
+        <TwitterTweetEmbed tweetId={"1243586904794128384"} />
       </div>
 
       <img src={kimberlee_ukulele} alt="Kimberlee holds ukulele " />
 
       <div style={tweetStyle}>
-        <TwitterTweetEmbed tweetId={"1179889420142436354"} />
+        <TwitterTweetEmbed tweetId={"1179966596711731201"} />
       </div>
 
       <img
