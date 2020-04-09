@@ -33,7 +33,7 @@ export default () => (
     
     <p>
       {" "}
-      I learn through building things, like a Node.js and Twilio <a href="https://twitter.com/kimeejohnson/status/1243586904794128384">app</a> to help restaurants during COVID-19; new <a href="https://www.sauti-databank.com/">data visualizations</a> for a nonprofit using Nivo (D3js) and MySQL; and Dolly Parton-inspired{" "}
+      I learn through building things, like a Node.js and Twilio <a href="https://twitter.com/kimeejohnson/status/1243586904794128384">app</a> to help restaurants during COVID-19; <a href="https://www.sauti-databank.com/">data visualizations</a> for a nonprofit using Nivo (D3js) and MySQL; and Dolly Parton-inspired{" "}
       <a href="https://twitter.com/kimeejohnson/status/1179889420142436354">
         demos
       </a>{" "}
