@@ -21,6 +21,10 @@ export default () => (
   <Layout>
     <h3>Hi! I'm a full stack software engineer.</h3>
 
+    <p> 
+      Most recently, I solved 120+ user-submitted bugs per month as the only Support Engineer at <a href="https://www.survata.com/">Survata</a>, a YC-backed startup.
+    </p>
+    
     <p>
       {" "}
       I've <a href="https://www.sauti-databank.com/">visualized data</a> for a

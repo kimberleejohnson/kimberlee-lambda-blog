@@ -11,7 +11,7 @@ export default ({ children }) => (
   <div style={{ margin: `3rem auto`, maxWidth: 650, padding: `0 1rem` }}>
   <header style={{ marginBottom: `3rem` }}>
   <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
-    <h3 style={{ display: `inline` }}>Kimberlee Johnson</h3>
+    <h2 style={{ display: `inline` }}>Kimberlee Johnson</h2>
   </Link>
   <ul style={{ color: 'black', listStyle: `none`, float: `right` }}>
   <ListLink to="/portfolio">Portfolio</ListLink>
