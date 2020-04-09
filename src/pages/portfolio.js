@@ -26,7 +26,7 @@ export default () => (
       <p>
         During the COVID-19 crisis, a friend who runs a restaurant wanted to
         reach more takeout customers during Shelter in Place, but refused to
-        work with delivery apps I scraped The San Francisco Chronicle’s
+        work with delivery apps. I scraped The San Francisco Chronicle’s
         Restaurant project, deployed it to a REST API using Node.js, and then
         connected that API to Twilio, setting up a phone number that could
         receive a zip code from a text message, look up the corresponding open
@@ -66,10 +66,7 @@ export default () => (
       </p>
       <p>
         <b>Role</b>: In addition to collaborating on a five-person developer
-        team to create a new data model and ETL process for Sauti, I also
-        drafted back-end routes to decrease front-end load, optimized
-        performance with a Node.js script, and managed documentation so that a
-        new team of developers could pick up the project where we left off.
+        team to create a new data model and ETL process for Sauti, I also: moved calculations from the front-end to back-end routes to decrease front-end load and optimize performance; wrote a Node.js script to automate data updates, and managed documentation so that a new team of developers could pick up the project where we left off.
       </p>
       <p>
         <a href="https://github.com/sauti-databank"> Code </a> |
@@ -93,10 +90,10 @@ export default () => (
           Safe Mothers, Safe Babies
         </a>{" "}
         app that allows pregnant mothers in Uganda to take safe, affordable
-        boda-boda rides to medical appointments.{" "}
+        boda-boda motorcycle taxi rides to medical appointments.{" "}
       </p>
       <p>
-        <b>Stack</b>: HTML, CSS, LESS, JavaScript.
+        <b>Stack</b>: HTML, Less CSS, JavaScript.
       </p>
       <p>
         <b>Role</b>: As the solo-developer on this project, I drew from my
@@ -122,7 +119,7 @@ export default () => (
       <p>
         An app that performs a psycographic analysis of a user's tweets once
         they connect their Twitter account. The analysis includes graphs
-        comparing a user's results to the average user and also suggests a list
+        comparing a user's results to the average user, and also suggests a list
         of users with similar psycographic traits.{" "}
       </p>
 
@@ -164,13 +161,13 @@ export default () => (
         <a href="https://dev.to/kimberleejohnson/trying-to-make-fetch-errr-a-post-request-happen-12ad">
           blog post
         </a>{" "}
-        about the app and the tools that made it possible to build it quickly.
+        about the app and the tools that made it possible to build and deploy quickly.
         Since it's obviously not October 3rd all year, I then{" "}
         <a href="https://twitter.com/kimeejohnson/status/1180290750862381056">
           updated the app
         </a>{" "}
         to respond with random quotes from the movie by building and deploying a
-        basic REST API.
+        simple Node.js REST API.
       </p>
 
       <p>
@@ -180,7 +177,7 @@ export default () => (
       </p>
 
       <p>
-        <b>Stack</b>: Twilio, Microsoft Azure, JavaScript.
+        <b>Stack</b>: Twilio, Microsoft Azure, Node.js
       </p>
 
       <p>
