@@ -24,6 +24,12 @@ export default () => (
     <p> 
       Most recently, I solved 120+ user-submitted bugs per month as the only Support Engineer at <a href="https://www.survata.com/">Survata</a>, a YC-backed startup.
     </p>
+
+    <p>
+      I taught myself web development after 3.5 years working with developers on their
+      interviews, talks, and blog posts at{" "}
+      <a href="https://stripe.com">Stripe</a>.
+    </p>
     
     <p>
       {" "}
@@ -39,12 +45,6 @@ export default () => (
       using Azure Functions. Flip through the carousel below to see some
       highlights, and find more projects and details in my{" "}
       <a href="https://kimberlee.dev/portfolio">portfolio</a>.
-    </p>
-
-    <p>
-      I learned to code after 3.5 years working with developers on their
-      interviews, talks, and blog posts at{" "}
-      <a href="https://stripe.com">Stripe</a>.
     </p>
 
     <Carousel autoplay={true} autoplayInterval={1700}>
