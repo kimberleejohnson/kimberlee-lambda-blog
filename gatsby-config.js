@@ -22,6 +22,13 @@ module.exports = {
               plugins: ["gatsby-remark-copy-linked-files"],
             },
           },
+          {
+            resolve: "gatsby-remark-embed-youtube",
+            options: {
+              maxWidth: 590,
+              height: 400
+          }
+        }
         ],
       },
     },
