@@ -17,6 +17,11 @@ const iconStyle = {
   marginTop: '3%'
 }
 
+// Carousel styling 
+const carouselStyle = {
+  justifyContent: 'center'
+}
+
 export default () => (
   <Layout>
     <h3>Hi! I'm a full stack software engineer.</h3>
@@ -40,7 +45,7 @@ export default () => (
       in React. 
     </p>
 
-    <Carousel autoplay={true} autoplayInterval={1700}>
+    <Carousel style={carouselStyle} autoplay={true} autoplayInterval={1700}>
       <img src={kimberleelandsend} alt="Kimberlee Johnson's headshot" />
 
       <div style={tweetStyle}>
