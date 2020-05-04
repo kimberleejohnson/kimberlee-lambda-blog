@@ -7,17 +7,23 @@ import kimberleelandsend from "../images/kimberleelandsend.jpg"
 import kimberlee_raceday from "../images/kimberlee_raceday.png"
 import kimberlee_ukulele from "../images/kimberlee_ukulele.png"
 
-// Tweet styling 
-const tweetStyle = {
+// Styled components 
+// const tweetStyle = {
+//   display: 'flex',
+//   justifyContent: 'center'
+// };
+
+const iconGroupStyle = {
+  marginTop: '3%',
   display: 'flex',
-  justifyContent: 'center'
+  flexDirection: 'row',
+  justifyContent: 'spaceAround'
 };
 
 const iconStyle = {
-  marginTop: '3%'
+  marginRight: '2%'
 }
 
-// Carousel styling 
 const carouselStyle = {
   justifyContent: 'center'
 }
@@ -48,13 +54,13 @@ export default () => (
     <Carousel style={carouselStyle} autoplay={true} autoplayInterval={1700}>
       <img src={kimberleelandsend} alt="Kimberlee Johnson's headshot" />
 
-      <div style={tweetStyle}>
+      <div>
         <TwitterTweetEmbed tweetId={"1243586904794128384"} />
       </div>
 
       <img src={kimberlee_ukulele} alt="Kimberlee holds ukulele " />
 
-      <div style={tweetStyle}>
+      <div>
         <TwitterTweetEmbed tweetId={"1179966596711731201"} />
       </div>
 
@@ -63,16 +69,17 @@ export default () => (
         alt="Kimberlee and friend jumping with San Francisco in background"
       />
 
-      <div style={tweetStyle}>
+      <div>
         <TwitterTweetEmbed tweetId={"1187180278982139904"} />
       </div>
     </Carousel>
 
-    <div class="icons-div" style={iconStyle}>
+    <div class="icons-div" style={iconGroupStyle}>
       <a href="https://github.com/kimberleejohnson">
         <img
           class="icon-img"
           src="https://img.icons8.com/ios-filled/24/000000/github.png"
+          style={iconStyle}
         ></img>
       </a>
 
@@ -80,6 +87,7 @@ export default () => (
         <img
           class="icon-img"
           src="https://img.icons8.com/metro/26/000000/twitter.png"
+          style={iconStyle}
         ></img>
       </a>
 
@@ -87,6 +95,7 @@ export default () => (
         <img
           class="icon-img"
           src="https://img.icons8.com/metro/26/000000/linkedin.png"
+          style={iconStyle}
         ></img>
       </a>
 
@@ -94,6 +103,7 @@ export default () => (
         <img
           class="icon-img"
           src="https://img.icons8.com/metro/26/000000/document.png"
+          style={iconStyle}
         ></img>
       </a>
     </div>
