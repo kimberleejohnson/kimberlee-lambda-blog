@@ -21,7 +21,9 @@ export default () => (
           padding: "129.4118% 5px 5px 5px",
           background: "rgba(0,0,0,0.03)",
           borderRadius: 8,
-          maxWidth: "auto",
+          maxWidth: '100%', 
+          height: 'auto', 
+          margin: '0 auto'
         }}
         href="https://www.canva.com/design/DADlx_k289w/view?utm_content=DADlx_k289w&utm_campaign=designshare&utm_medium=embeds&utm_source=link"
         target="_blank"
