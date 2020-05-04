@@ -7,21 +7,15 @@ import sautiScreenshot from "../images/portfolio-images/sauti_screenshot.png"
 import rideForLifeScreenshot from "../images/portfolio-images/rideForLife_screenshot.png"
 import tweetmateScreenshot from "../images/portfolio-images/tweetmate_screenshot.png"
 
-// Tweet styling
-const tweetStyle = {
-  display: "flex",
-  justifyContent: "center",
-}
-
 export default () => (
   <Layout>
     <h1>Portfolio</h1>
 
     <div>
       <h3>COVID-19 Open Restaurant Finder</h3>
-      <div style={tweetStyle}>
-        <TwitterTweetEmbed tweetId={"1243586904794128384"} />
-      </div>
+
+      <TwitterTweetEmbed tweetId={"1243586904794128384"} />
+
       <br />
       <p>
         During the COVID-19 crisis, a friend who runs a restaurant wanted to
@@ -66,7 +60,11 @@ export default () => (
       </p>
       <p>
         <b>Role</b>: In addition to collaborating on a five-person developer
-        team to create a new data model and ETL process for Sauti, I also: moved calculations from the front-end to back-end routes to decrease front-end load and optimize performance; wrote a Node.js script to automate data updates, and managed documentation so that a new team of developers could pick up the project where we left off.
+        team to create a new data model and ETL process for Sauti, I also: moved
+        calculations from the front-end to back-end routes to decrease front-end
+        load and optimize performance; wrote a Node.js script to automate data
+        updates, and managed documentation so that a new team of developers
+        could pick up the project where we left off.
       </p>
       <p>
         <a href="https://github.com/sauti-databank"> Code </a> |
@@ -145,9 +143,8 @@ export default () => (
     <div>
       <h3>Mean Girls Day Bot</h3>
 
-      <div style={tweetStyle}>
-        <TwitterTweetEmbed tweetId={"1179785393471811590"} />
-      </div>
+      <TwitterTweetEmbed tweetId={"1179785393471811590"} />
+
       <br />
       <p>
         In honor of the{" "}
@@ -161,8 +158,8 @@ export default () => (
         <a href="https://dev.to/kimberleejohnson/trying-to-make-fetch-errr-a-post-request-happen-12ad">
           blog post
         </a>{" "}
-        about the app and the tools that made it possible to build and deploy quickly.
-        Since it's obviously not October 3rd all year, I then{" "}
+        about the app and the tools that made it possible to build and deploy
+        quickly. Since it's obviously not October 3rd all year, I then{" "}
         <a href="https://twitter.com/kimeejohnson/status/1180290750862381056">
           updated the app
         </a>{" "}

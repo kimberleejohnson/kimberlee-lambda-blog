@@ -24,7 +24,7 @@ const carouselStyle = {
 
 export default () => (
   <Layout>
-    <h3>Hi! I'm a full stack software engineer.</h3>
+    <h3>Hi there! I'm a full stack software engineer.</h3>
 
     <p> 
       Most recently, I solved 120+ user-reported bugs per month as the only Support Engineer at <a href="https://www.survata.com/">Survata</a>, a YC-backed startup.
