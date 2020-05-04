@@ -7,21 +7,15 @@ import kimberleelandsend from "../images/kimberleelandsend.jpg"
 import kimberlee_raceday from "../images/kimberlee_raceday.png"
 import kimberlee_ukulele from "../images/kimberlee_ukulele.png"
 
-// Styled components 
-// const tweetStyle = {
-//   display: 'flex',
-//   justifyContent: 'center'
-// };
-
 const iconGroupStyle = {
   marginTop: '3%',
   display: 'flex',
   flexDirection: 'row',
-  justifyContent: 'spaceAround'
+  justifyContent: 'spaceBetween'
 };
 
 const iconStyle = {
-  marginRight: '2%'
+  padding: '10%'
 }
 
 const carouselStyle = {
