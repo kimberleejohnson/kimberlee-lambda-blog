@@ -1,9 +1,8 @@
 ---
 title: ❣️ Remind volunteers when and where to be with Twilio, Airtable, and Zapier 
-published: true
-description: Helping COVID-19 community response teams coordinate neighbors helping neighbors. A Twilio x DEV Hackathon submission.
+date: '2020-04-30'
 ---
-_Helping COVID-19 community response teams coordinate neighbors helping neighbors. A Twilio x DEV Hackathon submission for Engaging Engagements and/or Interesting Integrations._ 
+_Helping COVID-19 community response teams coordinate neighbors helping neighbors. This post was originally shared on [Dev.to](https://dev.to/kimberleejohnson/remind-volunteers-when-and-where-to-be-with-twilio-airtable-and-zapier-34a3)_. 
 
 ## Automating volunteer reminder texts for COVID-19 community response teams 
 
