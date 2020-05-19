@@ -9,7 +9,7 @@ There were so many things I did not know when I went to Uganda [for the first ti
 
 Kind friends remind me that my previous, seemingly unrelated-to-software-engineering work experience will come in handy. That came somewhat true during my first project week, when students at different points in the curriculum come together to build an app and accompanying marketing page. 
 
-I picked Ride for Life, a project that nonprofit [Safe Mothers Safe Babies](http://www.safemotherssafebabies.org/) (SAFE) might eventually build to connect pregnant Ugandan women with safe boda boda (motorcycle) rides to health clinics. Typically women have to walk miles to the nearest clinic, depend on unreliable buses, or hail a taxi that might then tax them unfairly. A secure uber-like service could solve this problem. 
+I picked Ride for Life, a project that nonprofit [Safe Mothers Safe Babies](https://www.safemotherssafebabies.org/) (SAFE) might eventually build to connect pregnant Ugandan women with safe boda boda (motorcycle) rides to health clinics. Typically women have to walk miles to the nearest clinic, depend on unreliable buses, or hail a taxi that might then tax them unfairly. A secure uber-like service could solve this problem. 
 
 Unfortunately, our team wasn’t able to talk to SAFE directly, but this is where my previous experience came in handy. Since I once worked at a nonprofit that ran projects in Uganda, I could imagine what SAFE might need, that unlike a traditional marketing page targeted at U.S. donors, the Ride for Life page would need to convince Ugandans to sign up for the new service. 
 

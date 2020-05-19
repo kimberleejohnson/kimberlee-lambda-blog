@@ -50,7 +50,7 @@ export default () => (
       />
       <p>
         A data visualization project for{" "}
-        <a href="http://sautiafrica.org/">Sauti.org</a>. Sauti manages an SMS
+        <a href="https://sautiafrica.org/">Sauti.org</a>. Sauti manages an SMS
         platform that East African border traders use to look up realtime market
         data. We converted that data, collected from SMS queries and stored in
         an array of objects, into a readable, then visual format.{" "}
