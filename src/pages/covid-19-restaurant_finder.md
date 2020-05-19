@@ -14,7 +14,7 @@ A user texts a Twilio Phone Number a five-digit zip code. Our Twilio Phone Numbe
 
 `youtube:https://www.youtube.com/embed/qTRB788Oi7Q`
 
-To set it all up, you’ll want to have [Twilio](www.twilio.com/referral/avaKmb), [Heroku](https://signup.heroku.com/), and [Github](https://github.com/join) accounts ready. 
+To set it all up, you’ll want to have [Twilio](https://www.twilio.com/referral/avaKmb), [Heroku](https://signup.heroku.com/), and [Github](https://github.com/join) accounts ready. 
 
 ## How to build it 
 
@@ -69,9 +69,9 @@ I tested the routes locally. When I confirmed I could see the right restaurants 
 
 ![Texting in a retro phone](https://media.giphy.com/media/3oKIPCg4sXCe4Hqxna/giphy.gif) 
 
-Developers use [Twilio](www.twilio.com) to programmatically send and receive calls and texts, but the limit really does not exist. [Chloe Condon](https://twitter.com/ChloeCondon) and I once used it to build a [Mean Girls’ day bot](https://dev.to/twilio/trying-to-make-fetch-errr-a-post-request-happen-12ad), and [Twilio Champions](https://www.twilio.com/champions) get up to all kinds of projects.  
+Developers use [Twilio](https://www.twilio.com) to programmatically send and receive calls and texts, but the limit really does not exist. [Chloe Condon](https://twitter.com/ChloeCondon) and I once used it to build a [Mean Girls’ day bot](https://dev.to/twilio/trying-to-make-fetch-errr-a-post-request-happen-12ad), and [Twilio Champions](https://www.twilio.com/champions) get up to all kinds of projects.  
 
-[Sign up for an account](www.twilio.com/referral/avaKmb) if you don’t have one already. You’ll also need to pick a Twilio Phone Number, which you can set up from your [Console](https://support.twilio.com/hc/en-us/articles/223135247-How-to-Search-for-and-Buy-a-Twilio-Phone-Number-from-Console). I recommend picking a number with an area code your users will be familiar with, so for me that was (415). 
+[Sign up for an account](https://www.twilio.com/referral/avaKmb) if you don’t have one already. You’ll also need to pick a Twilio Phone Number, which you can set up from your [Console](https://support.twilio.com/hc/en-us/articles/223135247-How-to-Search-for-and-Buy-a-Twilio-Phone-Number-from-Console). I recommend picking a number with an area code your users will be familiar with, so for me that was (415). 
 
 Now it’s time to configure your number. Head to *Phone Numbers* / *Manage Numbers* / *Active Phone Numbers*, and click on the number you set up. Scroll down to *Messaging*. Select *Configure with Webhooks…*, and when a message comes in, set the Webhook to be a HTTP POST request to your Heroku endpoint. Hit *Save*. 
 

@@ -28,11 +28,11 @@ Create a [Twilio account](www.twilio.com/referral/yUG1N7), and add a trial phone
 
 This might’ve been obvious, but you’ll also need your cell phone handy for texting/testing your app. 🤳
 
-![](http://giphygifs.s3.amazonaws.com/media/fNlVtMPzJMh0c/giphy.gif)
+![](https://giphygifs.s3.amazonaws.com/media/fNlVtMPzJMh0c/giphy.gif)
 
 With all that, we should be ready! 
 
-![](http://giphygifs.s3.amazonaws.com/media/fb2H7RxKPMHvy/giphy.gif)
+![](https://giphygifs.s3.amazonaws.com/media/fb2H7RxKPMHvy/giphy.gif)
 
 #### Create an Azure resource 
 
@@ -74,7 +74,7 @@ We’re picking this option because when our [Twilio](www.twilio.com/referral/yU
 
 With those clicks, you’ll have a basic Hello, World app in your index.js. Click *</> Get Function URL at the top of the code*, *Copy URL*, and add **&name=your-name** to the end of the URL before pasting in your browser and pressing enter. The browser tab should say, “Hello, name” (*in honor of Mean Girls Day, feel free to make it "Jambo, name"*). 🙋‍♀️
 
-![](http://giphygifs.s3.amazonaws.com/media/8vuARFixlnPvW/giphy.gif)
+![](https://giphygifs.s3.amazonaws.com/media/8vuARFixlnPvW/giphy.gif)
 
 Once you’ve verified that’s working, it’s time to add Twilio! 
 
@@ -112,7 +112,7 @@ Woohoo! If your text is working, let’s add a call.
 #### Receiving Twilio calls with Azure 
 This will work much the same way as our first function, but we’re going to need to record what we want our caller to hear. I used [this tool](https://online-voice-recorder.com/) to record and then [this tool](https://audio-joiner.com) mashup Cady and Kevin (you can see the full demo [here](https://twitter.com/kimeejohnson/status/1179785393471811590)). 
 
-![](http://giphygifs.s3.amazonaws.com/media/345M4BWe4GCWI/giphy.gif)
+![](https://giphygifs.s3.amazonaws.com/media/345M4BWe4GCWI/giphy.gif)
 
 Once you’re happy with your recording, you’ll want to upload it to [Twilio Assets](https://www.twilio.com/docs/runtime/assets). Head to the left-hand menu, click *Runtime* then *Assets*. Once you’re in your *Assets*, click the red **+** button to upload your audio file. 
 

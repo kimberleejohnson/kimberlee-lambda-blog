@@ -42,6 +42,6 @@ Confidence somewhat restored, Thursday we cover git, a track changes tool for de
 - My intro to writing fiction class at CCSF is still a delight. This week my group gave constructive feedback to one student’s experimental piece and another’s allegory. 
 - Am reading: and am obsessed with [The audacity of Inez Burns](https://www.goodreads.com/book/show/36675567-the-audacity-of-inez-burns?ac=1&from_search=true). In my spare time, I'm writing a musical about her life.   
 - I walked out of a musical at intermission for the first time. We went home to watch [Into the Spiderverse](https://www.youtube.com/watch?v=tg52up16eq0) instead, and that was one of the best decisions I made all week, second only to pair programming. 
-- I made it out to the [Bayview Opera House](http://bvoh.org/) to see [The Hate U Give](https://www.youtube.com/watch?v=3MM8OkVT0hw). It’s as good as everyone says, and something I personally needed to shut up and listen to. 
+- I made it out to the [Bayview Opera House](https://bvoh.org/) to see [The Hate U Give](https://www.youtube.com/watch?v=3MM8OkVT0hw). It’s as good as everyone says, and something I personally needed to shut up and listen to. 
 
 

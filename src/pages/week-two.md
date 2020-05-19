@@ -29,8 +29,8 @@ In our final challenge for the week, we added some missing pieces to a [fictiona
 - At the same time, having worked with blog templates and Gatsby before, I felt prepared downloading and playing with other templates this week. Do that if you can! 
 
 ### _Life outside of learning_
-- I celebrated Lawrence Ferlingheti’s 100th birthday at [City Lights](http://www.citylights.com/). This enduring space he created gives me so much hope for the future of San Francisco. 
-- I don’t listen to many podcasts, but I subscribe to Krista Tippet’s [On being](https://onbeing.org/) (h/t A.G.). She starts each episode asking guests to “Tell me about your spiritual upbringing,” so of course I also found myself at a recording of the lovely [Harry Potter and the sacred text podcast](http://www.harrypottersacredtext.com/) this week.
+- I celebrated Lawrence Ferlingheti’s 100th birthday at [City Lights](https://twitter.com/CityLightsBooks?s=20). This enduring space he created gives me so much hope for the future of San Francisco. 
+- I don’t listen to many podcasts, but I subscribe to Krista Tippet’s [On being](https://onbeing.org/) (h/t A.G.). She starts each episode asking guests to “Tell me about your spiritual upbringing,” so of course I also found myself at a recording of the lovely [Harry Potter and the sacred text podcast](https://www.harrypottersacredtext.com/) this week.
 - Am reading: Relatedly, a friend’s favorite book, [Jitterbug Perfume](https://www.goodreads.com/book/show/8682.Jitterbug_Perfume), which speaks to religion and spirituality and is also hilarious at the same time, a difficult feat. 
 - I went to my first Pyladies meetup. It doesn’t look like we’ll cover Python in depth in this program, but I’m interested in all the interesting things (mostly games) I’d be able to build with the language and also in getting to know this community. 
 - I finally visited [3 Fish Studios](https://www.3fishstudios.com/) in the sunset to pick up some art I bought as part of a fundraiser for California wildfire relief. The studio is so beautiful. Highly recommend. 
