@@ -34,11 +34,11 @@ export default () => (
         <b>Role</b>: I built this project independently.
       </p>
       <p>
-        <a href="https://github.com/kimberleejohnson/open-restaurants">
+        <a href="https://github.com/kimberleejohnson/open-restaurants" target="_blank">
           {" "}
           Code{" "}
         </a>{" "}
-        |<a href="#"> Case study </a> (coming soon){" "}
+        |<a href="https://dev.to/kimberleejohnson/build-a-twilio-app-to-help-people-support-local-restaurants-during-covid-19-14k5" target="_blank"> Case study </a> {" "}
       </p>
     </div>
 
@@ -67,8 +67,8 @@ export default () => (
         could pick up the project where we left off.
       </p>
       <p>
-        <a href="https://github.com/sauti-databank"> Code </a> |
-        <a href="https://drive.google.com/file/d/1nVPaBB6P-KiCa9X1PwQmWm8UsQ5UzyVz/view?usp=sharing">
+        <a href="https://github.com/sauti-databank" target="_blank"> Code </a> |
+        <a href="https://drive.google.com/file/d/1nVPaBB6P-KiCa9X1PwQmWm8UsQ5UzyVz/view?usp=sharing" target="_blank">
           {" "}
           Case study{" "}
         </a>{" "}
@@ -99,12 +99,12 @@ export default () => (
         brought it to life using media queries.
       </p>
       <p>
-        <a href="https://github.com/build-rideForLife/build_rideForLife_marketingA">
+        <a href="https://github.com/build-rideForLife/build_rideForLife_marketingA" target="_blank">
           {" "}
           Code{" "}
         </a>{" "}
-        |<a href="https://kimberlee.dev/week-five/"> Case study </a> |
-        <a href="https://rideforlifeapp.netlify.com"> Site </a>
+        |<a href="https://kimberlee.dev/week-five/" target="_blank"> Case study </a> |
+        <a href="https://rideforlifeapp.netlify.com" target="_blank"> Site </a>
       </p>
     </div>
 
@@ -132,11 +132,11 @@ export default () => (
       </p>
 
       <p>
-        <a href="https://github.com/pat-pyschographic-analysis-of-text">
+        <a href="https://github.com/pat-pyschographic-analysis-of-text" target="_blank">
           {" "}
           Code{" "}
         </a>{" "}
-        |<a href="https://tweetmate.netlify.com/"> Site </a>
+        |<a href="https://tweetmate.netlify.com/" target="_blank"> Site </a>
       </p>
     </div>
 
@@ -178,12 +178,12 @@ export default () => (
       </p>
 
       <p>
-        <a href="https://gist.github.com/kimberleejohnson/445c478f91ac9fb2461287215d6c1fda">
+        <a href="https://gist.github.com/kimberleejohnson/445c478f91ac9fb2461287215d6c1fda" target="_blank">
           {" "}
           Code{" "}
         </a>{" "}
         |
-        <a href="https://dev.to/kimberleejohnson/trying-to-make-fetch-errr-a-post-request-happen-12ad">
+        <a href="https://dev.to/kimberleejohnson/trying-to-make-fetch-errr-a-post-request-happen-12ad" target="_blank">
           {" "}
           Case Study{" "}
         </a>
