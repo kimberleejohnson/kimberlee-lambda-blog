@@ -23,7 +23,7 @@ export default () => (
         }}
         href="https://www.canva.com/design/DADlx_k289w/view?utm_content=DADlx_k289w&utm_campaign=designshare&utm_medium=embeds&utm_source=link"
         target="_blank"
-        rel="noopener"
+        rel="noopener noreferrer"
       />
     </Layout>
   </div>

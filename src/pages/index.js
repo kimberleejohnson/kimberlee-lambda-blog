@@ -76,6 +76,7 @@ export default () => (
           class="icon-img"
           src="https://img.icons8.com/ios-filled/24/000000/github.png"
           style={iconStyle}
+          alt="Github logo"
         />
       </a>
 
@@ -84,6 +85,7 @@ export default () => (
           class="icon-img"
           src="https://img.icons8.com/metro/26/000000/twitter.png"
           style={iconStyle}
+          alt="Twitter logo"
         />
       </a>
 
@@ -92,6 +94,7 @@ export default () => (
           class="icon-img"
           src="https://img.icons8.com/metro/26/000000/linkedin.png"
           style={iconStyle}
+          alt="LinkedIn logo"
         />
       </a>
 
@@ -100,6 +103,7 @@ export default () => (
           class="icon-img"
           src="https://img.icons8.com/metro/26/000000/document.png"
           style={iconStyle}
+          alt="Icon that looks like a document"
         />
       </a>
     </div>
