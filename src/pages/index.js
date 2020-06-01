@@ -98,12 +98,12 @@ export default () => (
         />
       </a>
 
-      <a href="https://dev.to/kimberleejohnson">
+      <a href="">
         <img
           class="icon-img"
-          src="https://img.icons8.com/metro/26/000000/document.png"
+          src="https://img.icons8.com/android/24/000000/video-call.png"
           style={iconStyle}
-          alt="Icon that looks like a document"
+          alt="Video camera icon"
         />
       </a>
     </div>
