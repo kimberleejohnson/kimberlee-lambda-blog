@@ -98,7 +98,7 @@ export default () => (
         />
       </a>
 
-      <a href="">
+      <a href="/video-chat">
         <img
           class="icon-img"
           src="https://img.icons8.com/android/24/000000/video-call.png"
