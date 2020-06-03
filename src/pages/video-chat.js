@@ -13,6 +13,8 @@ export default () => (
     <Layout>
       <button onClick={startCall} style={{marginBottom:'5vh'}}>Click to video chat.</button>
 
+      <div id="participantList"></div>
+
       <div
         id="callFrameDiv"
         style={{width: "50vw", height: "50vh" }}

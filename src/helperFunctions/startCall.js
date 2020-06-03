@@ -9,15 +9,33 @@ export default function startCall() {
         border: 'none',  
         width: '100%',
         height: '100%',
-        // position: 'fixed'
       }
     });
-    // console.log(callFrame);
-    // document.getElementById('callFrameDiv').appendChild(callFrame.iframe); 
   
     callFrame.join({
       url: room.url,
       showLeaveButton: true,
-    })
+    }) 
+
+    let participantList = document.getElementById('participantList'); 
+ 
+    callFrame.on('participant-joined', (e) => { 
+      let participants = callFrame.participants(); 
+      let participantHTML = ''; 
+      console.log(participants)
+      let count = 1; 
+;       for(let id in participants) {
+        let p = participants[id]; 
+        // A count of the number of people on the call 
+        participantHTML += `
+        <div>
+          <li>${p.user_name || `Participant ${count}`}</li>
+        </div>
+        `;
+        count++; 
+      }
+      participantList.innerHTML = participantHTML; 
+    });
   }
 }
+
