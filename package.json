@@ -9,7 +9,9 @@
     "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "dependencies": {
+    "@daily-co/daily-js": "^0.9.991",
     "css-loader": "^2.1.1",
+    "dotenv": "^8.2.0",
     "file-loader": "^3.0.1",
     "gatsby": "^2.20.15",
     "gatsby-cli": "^2.4.15",
