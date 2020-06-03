@@ -1,8 +1,8 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 
-import Layout from "../components/layout";
-import startCall from "./startCall"; 
+import Layout from "../components/layout"
+import startCall from "../helperFunctions/startCall"
 
 export default () => ( 
       <div>
