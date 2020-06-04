@@ -1,7 +1,8 @@
-import React from "react"
+import React, {useEffect, useState, useCallback} from "react" 
 import { Helmet } from "react-helmet"
 
 import Layout from "../components/layout"
+import CallButton from "../components/video-chat-components/callButton"
 import startCall from "../helpers/startCall"
 
 export default () => (
@@ -17,9 +18,7 @@ export default () => (
         justifyContent: "space-between",
       }}
     >
-      <button onClick={startCall} style={{ marginBottom: "5vh" }}>
-        Click to video chat.
-      </button>
+      <CallButton />
     </div>
 
     <div id="participantList" />
