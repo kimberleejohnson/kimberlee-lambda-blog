@@ -1,3 +1,4 @@
+// Component passed to the video-chat.js page to start a call 
 export default function startCall() {
   let room = { url: "https://kimberlee.daily.co/hello" }
 
@@ -36,6 +37,13 @@ export default function startCall() {
       }
       participantList.innerHTML = participantHTML; 
     });
+
+    callFrame.on('participant-updated', (e) => {
+      console.log("Changes!")
+    })
   }
 }
 
+export function test() {
+  console.log("Test"); 
+}

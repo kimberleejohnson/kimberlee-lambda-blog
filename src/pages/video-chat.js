@@ -2,7 +2,7 @@ import React from "react"
 import { Helmet } from "react-helmet"
 
 import Layout from "../components/layout"
-import startCall from "../helperFunctions/startCall"
+import startCall from "../helpers/startCall"
 
 export default () => (
   <div>
@@ -11,14 +11,21 @@ export default () => (
       <script src="https://kimberlee.daily.co/hello" />
     </Helmet>
     <Layout>
-      <button onClick={startCall} style={{marginBottom:'5vh'}}>Click to video chat.</button>
-
-      <div id="participantList"></div>
-
       <div
-        id="callFrameDiv"
-        style={{width: "50vw", height: "50vh" }}
-      />
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          justifyContent: "space-between",
+        }}
+      >
+        <button onClick={startCall} style={{ marginBottom: "5vh" }}>
+          Click to video chat.
+        </button>
+      </div>
+
+      <div id="participantList" />
+
+      <div id="callFrameDiv" style={{ width: "50vw", height: "50vh" }} />
     </Layout>
   </div>
 )
